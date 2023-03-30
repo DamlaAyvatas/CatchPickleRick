@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
                 }
                 alert.setNegativeButton("No"){dialog, which ->
-                    Toast.makeText(this@MainActivity, " Game Over", Toast.LENGTH_LONG)
+                    Toast.makeText(this@MainActivity, " Game Over", Toast.LENGTH_LONG).show()
                 }
                 alert.show()
 
