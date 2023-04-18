@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
                 val random = Random()
                 val randomIndex = random.nextInt(9) // 0 ile 8 arasında random index
                 pickleArray[randomIndex].visibility = View.VISIBLE
-                handler.postDelayed(runnable, 500)
+                handler.postDelayed(runnable, 500) //pickle rick 500 ms'de bir hareket edecek
 
                 }
             }
